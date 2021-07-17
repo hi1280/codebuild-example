@@ -2,7 +2,7 @@ version: 0.2
 env:
   variables:
     DOCKER_BUILDKIT: 1
-    CONTAINER_NAME: docker-build-example
+    CONTAINER_NAME: codebuild-example
   parameter-store:
     REGISTRY_URI: "/ecr/registry_uri"
 phases:
