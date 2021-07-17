@@ -63,7 +63,7 @@ resource "aws_codebuild_project" "container_build" {
   }
   source {
     type            = "GITHUB"
-    location        = "https://github.com/hi1280/docker-build-example.git"
+    location        = "https://github.com/hi1280/codebuild-example.git"
     git_clone_depth = 1
   }
   service_role  = aws_iam_role.container_build.arn
